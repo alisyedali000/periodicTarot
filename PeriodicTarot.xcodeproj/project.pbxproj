@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52075872BEAA62300627FA2 /* CardSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52075862BEAA62300627FA2 /* CardSelectionView.swift */; };
+		F5BD50DD2BEA8D0900D5ED87 /* PeriodicTarotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BD50DC2BEA8D0900D5ED87 /* PeriodicTarotApp.swift */; };
+		F5BD50E12BEA8D0A00D5ED87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BD50E02BEA8D0A00D5ED87 /* Assets.xcassets */; };
+		F5BD50E42BEA8D0A00D5ED87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BD50E32BEA8D0A00D5ED87 /* Preview Assets.xcassets */; };
+		F5BD50EC2BEA925800D5ED87 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BD50EB2BEA925800D5ED87 /* BackgroundView.swift */; };
+		F5BD50F12BEA937F00D5ED87 /* segoeprb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5BD50F02BEA937F00D5ED87 /* segoeprb.ttf */; };
+		F5BD50F32BEA938900D5ED87 /* segoepr.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5BD50F22BEA938900D5ED87 /* segoepr.ttf */; };
+		F5BD50F62BEA93EE00D5ED87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BD50F52BEA93EE00D5ED87 /* HomeView.swift */; };
+		F5BD50F82BEA951600D5ED87 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5BD50F72BEA951600D5ED87 /* Mulish-Black.ttf */; };
+		F5BD50FC2BEA9C5A00D5ED87 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BD50FB2BEA9C5A00D5ED87 /* AboutView.swift */; };
+		F5BD50FE2BEA9D2D00D5ED87 /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BD50FD2BEA9D2D00D5ED87 /* AppEnums.swift */; };
+		F5BD51002BEA9D6800D5ED87 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BD50FF2BEA9D6800D5ED87 /* MainView.swift */; };
+		F5BD51042BEA9FD200D5ED87 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BD51032BEA9FD200D5ED87 /* ResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F52075862BEAA62300627FA2 /* CardSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionView.swift; sourceTree = "<group>"; };
+		F5BD50D92BEA8D0900D5ED87 /* PeriodicTarot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTarot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BD50DC2BEA8D0900D5ED87 /* PeriodicTarotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTarotApp.swift; sourceTree = "<group>"; };
+		F5BD50E02BEA8D0A00D5ED87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BD50E32BEA8D0A00D5ED87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5BD50EB2BEA925800D5ED87 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		F5BD50F02BEA937F00D5ED87 /* segoeprb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segoeprb.ttf; sourceTree = "<group>"; };
+		F5BD50F22BEA938900D5ED87 /* segoepr.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segoepr.ttf; sourceTree = "<group>"; };
+		F5BD50F42BEA93A200D5ED87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BD50F52BEA93EE00D5ED87 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F5BD50F72BEA951600D5ED87 /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
+		F5BD50FB2BEA9C5A00D5ED87 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		F5BD50FD2BEA9D2D00D5ED87 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		F5BD50FF2BEA9D6800D5ED87 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F5BD51032BEA9FD200D5ED87 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BD50D62BEA8D0900D5ED87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54E08F02BEC524D00679800 /* Cycles */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD50DC2BEA8D0900D5ED87 /* PeriodicTarotApp.swift */,
+			);
+			path = Cycles;
+			sourceTree = "<group>";
+		};
+		F5BD50D02BEA8D0900D5ED87 = {
+			isa = PBXGroup;
+			children = (
+				F5BD50DB2BEA8D0900D5ED87 /* PeriodicTarot */,
+				F5BD50DA2BEA8D0900D5ED87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BD50DA2BEA8D0900D5ED87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD50D92BEA8D0900D5ED87 /* PeriodicTarot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BD50DB2BEA8D0900D5ED87 /* PeriodicTarot */ = {
+			isa = PBXGroup;
+			children = (
+				F54E08F02BEC524D00679800 /* Cycles */,
+				F5BD50ED2BEA932400D5ED87 /* Resources */,
+				F5BD50EA2BEA924A00D5ED87 /* Views */,
+				F5BD50E22BEA8D0A00D5ED87 /* Preview Content */,
+			);
+			path = PeriodicTarot;
+			sourceTree = "<group>";
+		};
+		F5BD50E22BEA8D0A00D5ED87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD50E32BEA8D0A00D5ED87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5BD50EA2BEA924A00D5ED87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD50EB2BEA925800D5ED87 /* BackgroundView.swift */,
+				F5BD50F52BEA93EE00D5ED87 /* HomeView.swift */,
+				F5BD50FB2BEA9C5A00D5ED87 /* AboutView.swift */,
+				F5BD50FF2BEA9D6800D5ED87 /* MainView.swift */,
+				F5BD51032BEA9FD200D5ED87 /* ResultView.swift */,
+				F52075862BEAA62300627FA2 /* CardSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5BD50ED2BEA932400D5ED87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD50E02BEA8D0A00D5ED87 /* Assets.xcassets */,
+				F5BD50F42BEA93A200D5ED87 /* Info.plist */,
+				F5BD50EE2BEA933500D5ED87 /* Fonts */,
+				F5BD50FD2BEA9D2D00D5ED87 /* AppEnums.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5BD50EE2BEA933500D5ED87 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD50EF2BEA935500D5ED87 /* Segoe */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F5BD50EF2BEA935500D5ED87 /* Segoe */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD50F72BEA951600D5ED87 /* Mulish-Black.ttf */,
+				F5BD50F22BEA938900D5ED87 /* segoepr.ttf */,
+				F5BD50F02BEA937F00D5ED87 /* segoeprb.ttf */,
+			);
+			path = Segoe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BD50D82BEA8D0900D5ED87 /* PeriodicTarot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BD50E72BEA8D0A00D5ED87 /* Build configuration list for PBXNativeTarget "PeriodicTarot" */;
+			buildPhases = (
+				F5BD50D52BEA8D0900D5ED87 /* Sources */,
+				F5BD50D62BEA8D0900D5ED87 /* Frameworks */,
+				F5BD50D72BEA8D0900D5ED87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodicTarot;
+			productName = PeriodicTarot;
+			productReference = F5BD50D92BEA8D0900D5ED87 /* PeriodicTarot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BD50D12BEA8D0900D5ED87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F5BD50D82BEA8D0900D5ED87 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F5BD50D42BEA8D0900D5ED87 /* Build configuration list for PBXProject "PeriodicTarot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BD50D02BEA8D0900D5ED87;
+			productRefGroup = F5BD50DA2BEA8D0900D5ED87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BD50D82BEA8D0900D5ED87 /* PeriodicTarot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BD50D72BEA8D0900D5ED87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BD50F32BEA938900D5ED87 /* segoepr.ttf in Resources */,
+				F5BD50F12BEA937F00D5ED87 /* segoeprb.ttf in Resources */,
+				F5BD50F82BEA951600D5ED87 /* Mulish-Black.ttf in Resources */,
+				F5BD50E42BEA8D0A00D5ED87 /* Preview Assets.xcassets in Resources */,
+				F5BD50E12BEA8D0A00D5ED87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BD50D52BEA8D0900D5ED87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BD50EC2BEA925800D5ED87 /* BackgroundView.swift in Sources */,
+				F5BD51002BEA9D6800D5ED87 /* MainView.swift in Sources */,
+				F52075872BEAA62300627FA2 /* CardSelectionView.swift in Sources */,
+				F5BD50F62BEA93EE00D5ED87 /* HomeView.swift in Sources */,
+				F5BD50DD2BEA8D0900D5ED87 /* PeriodicTarotApp.swift in Sources */,
+				F5BD51042BEA9FD200D5ED87 /* ResultView.swift in Sources */,
+				F5BD50FE2BEA9D2D00D5ED87 /* AppEnums.swift in Sources */,
+				F5BD50FC2BEA9C5A00D5ED87 /* AboutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5BD50E52BEA8D0A00D5ED87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5BD50E62BEA8D0A00D5ED87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BD50E82BEA8D0A00D5ED87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.4;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodicTarot/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWANQTS8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeriodicTarot/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Periodic Tarot";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomashooper.PeriodicTarot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5BD50E92BEA8D0A00D5ED87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.4;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodicTarot/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWANQTS8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeriodicTarot/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Periodic Tarot";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomashooper.PeriodicTarot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BD50D42BEA8D0900D5ED87 /* Build configuration list for PBXProject "PeriodicTarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BD50E52BEA8D0A00D5ED87 /* Debug */,
+				F5BD50E62BEA8D0A00D5ED87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BD50E72BEA8D0A00D5ED87 /* Build configuration list for PBXNativeTarget "PeriodicTarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BD50E82BEA8D0A00D5ED87 /* Debug */,
+				F5BD50E92BEA8D0A00D5ED87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5BD50D12BEA8D0900D5ED87 /* Project object */;
+}
